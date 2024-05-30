@@ -40,7 +40,7 @@ h1 {
   height: 80%;
 }
 
-#signin {
+button {
   background: red;
   padding: 8px 14px;
   border: none;
@@ -62,3 +62,7 @@ p {
 #p2 {
   font-size: 23px;
 }
+
+/* button:active {
+  background-color: blue;
+} */
