@@ -40,7 +40,7 @@ nav > span {
   padding: 2px;
 }
 
-.sale {
+.promotional-section {
   padding: 6% 10%;
   font-size: larger;
   background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
@@ -50,13 +50,13 @@ nav > span {
   color: white;
 }
 
-.sale > header {
+.promotional-section > header {
   width: 70%;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 2%;
 }
 
-.category-1 {
+.trending-section {
   padding: 1% 5%;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -80,7 +80,7 @@ nav > span {
   padding: 0.1%;
 }
 
-.category-2 {
+.history-section {
   background: linear-gradient(to left, #000000, #434343);
 }
 
