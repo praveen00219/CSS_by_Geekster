@@ -41,12 +41,12 @@ a img {
 }
 
 .material-symbols-outlined:hover {
-  color: #3c3b3b;
+  color: black;
 }
 
 .header-search form {
   display: flex;
-  column-gap: 10px;
+  align-items: center;
 }
 
 .header-search form input {
@@ -54,7 +54,7 @@ a img {
   background-color: white;
   border: none;
   border: 1px solid rgb(150, 150, 150);
-  border-radius: 20px;
+  border-radius: 40px 0 0 40px;
   width: 20rem;
   height: 2.3rem;
   padding-left: 10px;
@@ -62,8 +62,15 @@ a img {
 }
 
 .header-search form .search-icon {
-  border: none;
-  border-radius: 40px;
+  background-color: white;
+  border: 2px solid rgb(150, 150, 150);
+  border-radius: 0 40px 40px 0;
+  height: 2.3rem;
+  width: 3rem;
+}
+
+.header-search form .search-icon:active {
+  border: 2px solid black;
 }
 
 .right-header {
@@ -118,6 +125,12 @@ aside nav a:hover {
   color: #3c3b3b;
 }
 
+aside nav a:hover span {
+  background-color: #e1dededf;
+  border-radius: 20px;
+  color: #3c3b3b;
+}
+
 aside nav a img {
   margin-right: 10px;
 }
@@ -156,6 +169,10 @@ section {
   cursor: pointer;
 }
 
+.cetegories .cetegory:hover {
+  background-color: black;
+  color: white;
+}
 .videos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -170,7 +187,7 @@ section {
 }
 
 .video-card:hover {
-  background-color: #e1dededf;
+  background-color: #e1dede63;
   border-radius: 10px;
 }
 
@@ -201,4 +218,45 @@ section {
 .video-details {
   font-size: 0.8rem;
   color: #666;
+}
+
+.video-card {
+  position: relative;
+}
+
+/* Positioning and styling for the play button and text */
+.video-card .play-video {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  position: absolute;
+  z-index: 99999999;
+  box-sizing: border-box;
+  left: 30%;
+  top: 30%;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.video-card .play-video span {
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.video-card .play-video h3 {
+  font-size: 1.75rem;
+  color: whitesmoke;
+}
+
+.video-card:hover img {
+  filter: brightness(60%);
+}
+
+.video-card:hover .play-video {
+  visibility: visible;
+  opacity: 1;
+}
+
+.video-card .play-video:hover ~ img {
+  filter: brightness(60%);
 }

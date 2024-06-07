@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <!-- header section, contains logo of youtube, searchbar, profile icons -->
     <div class="header">
       <div class="logo left-header">
         <span class="material-symbols-outlined">menu</span>
@@ -24,7 +25,7 @@
       </div>
       <div class="searchbar header-search">
         <form action="#">
-          <input type="text" placeholder="Search" />
+          <input class="btn" type="text" placeholder="Search" />
           <button class="search-icon">
             <span class="material-symbols-outlined">search</span>
           </button>
@@ -34,9 +35,13 @@
         <span class="material-symbols-outlined">videocam</span>
         <span class="material-symbols-outlined">apps</span>
         <span class="material-symbols-outlined">notifications</span>
-        <span class="material-symbols-outlined">account_circle</span>
+        <span class="material-symbols-outlined profile" style="color: black"
+          >account_circle</span
+        >
       </div>
     </div>
+
+    <!-- main section, contains sidebar and all video card -->
     <main>
       <aside class="sidebar scrollable-content">
         <nav>
@@ -150,6 +155,7 @@
           </a>
         </nav>
       </aside>
+      <!-- all video cards, contains video thumbnail , and video details like video title, channel name, views and upload-date  ect.-->
       <section class="content scrollable-content">
         <div class="cetegories">
           <span class="cetegory" style="background-color: black; color: white"
@@ -165,7 +171,13 @@
         </div>
         <div class="videos">
           <div class="video-card">
-            <img src="assets\12video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\12video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title">AWESOME A WEEK!</span>
               <span class="video-details">Software Engineer</span>
@@ -173,7 +185,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\1video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\1video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title">PROBLEM Solving</span>
               <span class="video-details">Apna college</span>
@@ -181,7 +199,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\2video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\2video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >Day in Life of a Software Engineer</span
@@ -191,7 +215,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\3video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\3video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >Development Projects Ideas For Beginners...</span
@@ -201,7 +231,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\4video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\4video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >Why our ecosystem is NOT producing better software
@@ -212,7 +248,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\5video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\5video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >A Day in Life of a Software Engineer in Indian #youtube
@@ -223,7 +265,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\6video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\6video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title">MARKET 2024?</span>
               <span class="video-details">Meghna Srivastava</span>
@@ -231,7 +279,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\7video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\7video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title">Stop This Do This</span>
               <span class="video-details">Meghna Srivastava</span>
@@ -239,7 +293,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\8video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\8video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title">JavaScript Round</span>
               <span class="video-details">Chai aur code</span>
@@ -247,7 +307,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\9video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\9video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >QUALITY of IT in 2024 The market is Changing (Must...</span
@@ -257,7 +323,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\10video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\10video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >The Most Important Skill You Never Learned</span
@@ -267,7 +339,13 @@
             </div>
           </div>
           <div class="video-card">
-            <img src="assets\11video.jfif" alt="Video Thumbnail" />
+            <div class="img-play">
+              <div class="play-video">
+                <span class="material-symbols-outlined"> play_circle </span>
+                <h3>Play</h3>
+              </div>
+              <img src="assets\11video.jfif" alt="Video Thumbnail" />
+            </div>
             <div class="video-info">
               <span class="video-title"
                 >3 Years Experienced JavaScript Interview</span
