@@ -9,6 +9,7 @@
   color: gray;
 }
 
+/*---------- navbar section------ */
 .header {
   display: flex;
   justify-content: space-between;
@@ -79,6 +80,13 @@ a img {
   column-gap: 1rem;
 }
 
+/*---------- main section, which contains asidebar on left and all the video cards on right side---------- */
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
 .sidebar-icon {
   display: flex;
   align-items: center;
@@ -94,12 +102,6 @@ a img {
 
 .scrollable-content::-webkit-scrollbar {
   display: none;
-}
-
-main {
-  display: flex;
-  max-width: 1200px;
-  margin: 20px auto;
 }
 
 aside {
@@ -145,6 +147,7 @@ aside nav a span {
   margin-bottom: 10px;
 }
 
+/*---------All video cards section---------- */
 section {
   flex: 1;
 }
