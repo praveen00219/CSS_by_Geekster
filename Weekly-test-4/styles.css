@@ -1,3 +1,4 @@
+/* Globle CSS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
@@ -15,6 +16,7 @@ body {
   background: #f2f2f2;
 }
 
+/* For Header Section*/
 header {
   position: fixed;
   top: 0;
@@ -60,8 +62,7 @@ header {
   margin-left: 0;
 }
 
-header a,
-footer a {
+header a {
   margin-left: 40px;
   text-decoration: none;
   color: #fff;
@@ -70,11 +71,11 @@ footer a {
   display: inline-block;
 }
 
-header a:hover,
-footer a:hover {
+header a:hover {
   color: #ddd;
 }
 
+/* For Homepage Section*/
 .homepage {
   height: 100vh;
   width: 100%;
@@ -138,6 +139,7 @@ footer a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
+/* For Services, AboutUs, Contact Section*/
 section {
   display: flex;
   align-items: center;
@@ -281,28 +283,4 @@ section .cards .card {
 
 .contact form button:hover {
   background: #525252;
-}
-
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background: #000;
-  padding: 20px 0;
-}
-
-footer div {
-  padding: 0 10px;
-  max-width: 1200px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-footer span {
-  color: #fff;
-}
-
-footer a {
-  padding: 0;
 }
