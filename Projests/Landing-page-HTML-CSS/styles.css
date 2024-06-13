@@ -104,9 +104,16 @@ nav {
 .logo {
   display: flex;
   align-items: baseline;
-  color: var(--light-green-color);
-  font-size: 1.5rem;
   cursor: pointer;
+}
+
+nav img {
+  height: 3rem;
+}
+
+.logo h1 {
+  color: var(--light-green-color);
+  font-size: 2rem;
 }
 
 nav a {
@@ -121,10 +128,6 @@ nav a :visited {
 
 nav a:hover {
   color: var(--light-green-color);
-}
-
-nav img {
-  height: 4rem;
 }
 
 nav ul {
@@ -173,7 +176,7 @@ nav .mobile-menu {
 
 .home h1 {
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .home p {
@@ -1172,10 +1175,6 @@ footer .copyright {
 }
 
 @media screen and (max-width: 500px) {
-  nav img {
-    height: 2rem;
-  }
-
   .home h1 {
     font-size: 2rem;
   }
