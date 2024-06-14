@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding: 10vw 15vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .top-section {
+  height: 10vw;
+  background-color: white;
+}
+
+.container .bottom-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #ffc107;
+}
+
+.container .bottom-section .left {
+  width: 40%;
+  position: relative;
+  bottom: 7vh;
+  left: 7vw;
+  right: 5rem;
+}
+
+.container .bottom-section .img img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container .bottom-section .content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 7rem;
+  gap: 0.8rem;
+}
+
+.container .bottom-section .content h1 {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.container .bottom-section .content p {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.container .content p span {
+  border-bottom: 1px solid black;
+}
+
+.container .bottom-section .content button {
+  font-size: 0.6rem;
+  letter-spacing: 0.25ch;
+  color: white;
+  background-color: black;
+  padding: 0.3rem 2rem;
+}
+
+/*----- Media Queries---- */
+@media screen and (max-width: 980px) {
+  .container .bottom-section {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .container .bottom-section .left {
+    width: 80%;
+  }
+
+  .container .bottom-section .content {
+    width: 100%;
+  }
+}
