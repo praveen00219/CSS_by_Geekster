@@ -38,28 +38,30 @@ a hero section, a shop section, and a footer.
   -> Lifestyle Categories: 
           Displays categories like Fitness, Entertain, Parties, and Workaholic, 
           each with an image and a link to view all related items.
-          
-          ![category-html](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/db13720a-920d-4d6b-8f1b-7114fab042ce)
+              ![category-html](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/db13720a-920d-4d6b-8f1b-7114fab042ce)
 
-          ![category](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/c1b32400-7b96-4409-86b5-974b6b55ca40)
+  ![category](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/c1b32400-7b96-4409-86b5-974b6b55ca40)
 
 
   -> Product Categories: 
           Includes sections like Laptops & Tables, Smartwatches, Strip Lights, Home Refresh Ideas, etc.,
           each with an image, a title, and a link to shop.
 
-          ![shop-card-html](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/542623fa-b383-4c95-80db-2c1c3a714614)
+   ![shop-card-html](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/542623fa-b383-4c95-80db-2c1c3a714614)
 
-          ![shop-cards](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/1a6c0674-853f-4611-a24a-d85c6d43f7a0)
+  ![shop-cards](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/1a6c0674-853f-4611-a24a-d85c6d43f7a0)
 
 
 **5.** Footer:
   -> Includes links to various Amazon services and information, divided into categories like Get to Know Us, 
      Connect with Us, Make Money with Us, and Let Us Help You.
 
-     ![footer](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/125d30f5-f4dd-4679-91c5-89ebd6aedf1a)
+  ![footer-html](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/487b5adc-1c03-4a03-987b-e43a0288deff)
 
-     ![footer](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/9326b7e4-0571-45b6-b789-c15aad8f51ca)
+  ![footer](https://github.com/praveen00219/CSS_by_Geekster/assets/156374521/15f992c5-c84a-43e9-92cd-76971233c544)
+
+
+    
 
   
 ### CSS Appleid :
