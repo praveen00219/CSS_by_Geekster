@@ -1,4 +1,4 @@
-/* -----Body Section Start------*/
+/* -----Body Section Styles------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
@@ -82,7 +82,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* -------Nav Section Start------ */
+/* -------Nav Section Styles------ */
 nav {
   display: flex;
   flex-direction: row;
@@ -184,7 +184,7 @@ nav .mobile-menu {
   width: 50%;
 }
 
-/* -----Intro Section Start----- */
+/* -----Intro Section Styles----- */
 .intro {
   padding: 5rem 10vw;
   background-color: var(--white-color);
@@ -279,7 +279,7 @@ nav .mobile-menu {
   font-size: 1rem;
 }
 
-/* ------Services Section Start----- */
+/* ------Services Section Styles----- */
 .services {
   padding: 5rem 0;
 }
@@ -559,7 +559,7 @@ nav .mobile-menu {
   text-align: center;
 }
 
-/* -----Call_me Section Start----- */
+/* -----Call_me Section Styles----- */
 .call_me {
   background-color: var(--dark-green-color);
   padding: 5rem 10vw;
@@ -621,7 +621,7 @@ nav .mobile-menu {
   opacity: 1; /* Firefox */
 }
 
-/* -----Projects Section Start----- */
+/* -----Projects Section Styles----- */
 .projects {
   padding: 5rem 10vw;
   background-color: var(--white-color);
@@ -809,7 +809,7 @@ nav .mobile-menu {
   color: var(--light-green-color);
 }
 
-/*-------- About Section Start------------- */
+/*-------- About Section Styles------------- */
 .about {
   padding: 5rem 10vw;
   background-color: var(--white-color);
@@ -878,7 +878,7 @@ nav .mobile-menu {
   font-weight: 700;
 }
 
-/* -----Contact Section Start----------- */
+/* -----Contact Section Styles----------- */
 .contact {
   padding: 5rem 10vw;
   background-color: var(--background-color);
