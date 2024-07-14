@@ -86,17 +86,17 @@ button:hover {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 5px;
   position: fixed;
-  justify-content: space-between;
   top: 0;
   left: 0;
+  z-index: 100;
   width: 100%;
   padding: 1rem 3rem;
   box-sizing: border-box;
   align-items: center;
   color: var(--white-color);
-  z-index: 100;
   backdrop-filter: blur(10px) grayscale(var(--image-grayscale))
     contrast(var(--image-contrast));
 }
